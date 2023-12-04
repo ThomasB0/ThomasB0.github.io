@@ -1,0 +1,143 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("image/w-qjCHPZbeXCQ-unsplash.jpg");
+    background-size: cover;
+    color: aliceblue;
+    text-shadow: rgb(0, 0, 0) 2px 2px 7px ;
+    justify-content: center;
+    }
+    
+    
+#testt{
+    margin: 0 auto;
+    font-size: 35px;
+    margin: 10px;
+}
+    
+    
+.flex-container {
+    /* In order to use flex-box we need to first set our display property */
+    display: flex;
+    /* center the container horizontally */
+    justify-content: center;
+    /* this will center content vertically */
+    align-items: center;
+    /* tells the container to align the children in columns rather than rows */
+}
+
+.flex-column {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    /* tells the container to drop down once it reaches max-width */
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+    height: 432px;
+    width: 432px;
+}
+    
+    
+#test{
+    border: 2px solid rgba(0, 0, 0, .75);
+    height: 140px;
+    width: 140px;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: white 0px 0px 10px;
+}
+    
+    
+#reset-button {
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: larger;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: 300ms;
+}
+#reset-button:hover{
+    box-shadow: black 0px 0px 10px;
+
+}
+#test{
+    border-radius: 5px;
+    border-color: white;
+    background-color: rgba(0, 0, 0, .70);
+    color: white;
+    user-select: none;
+    
+}
+footer{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: black 0px 0px 20px;
+}
+
+img{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+#img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+a{
+    color: white;
+}
+.hidden{
+    display: none;
+    margin-bottom: -100px;
+}
+#afficher{
+    background-color: rgb(16, 104, 181, 0);
+    border: none;
+    cursor: pointer;
+}
+#bouton{
+    display: flex;
+    align-items: center;
+    width: 1fr;
+    color: black;
+    justify-content: center;
+}
+#inspiration{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 150px;
+}
+
+#nom{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 150px;
+}
+#image{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 50px;
+}
+#aligner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    padding: 10px;
+}
