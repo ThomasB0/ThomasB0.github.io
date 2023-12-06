@@ -12,7 +12,7 @@ body {
     
 #testt{
     margin: 0 auto;
-    font-size: 35px;
+    font-size: 5vh;
     margin: 0px;
 }
     
@@ -36,16 +36,16 @@ body {
 
 .flex-wrap {
     flex-wrap: wrap;
-    height: 360px;
-    width: 360px;
+    height: 47vh;
+    width: 47vh;
 }
     
     
 #test{
     border: 2px solid rgba(0, 0, 0, .75);
-    height: 115px;
-    width: 115px;
-    font-size: 80px;
+    height: 15vh;
+    width: 15vh;
+    font-size: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,7 +55,7 @@ body {
     
 #reset-button {
     text-align: center;
-    font-size: 20px;
+    font-size: 5vh;
     border: 1px solid black;
     padding: 10px;
     font-size: larger;
@@ -83,7 +83,8 @@ footer{
     justify-content: space-between;
     padding: 5px;
     box-shadow: black 0px 0px 20px;
-    transform: translate(0px, 1000px);
+    transform: translate(0px, 1000vh);
+    margin-top: 3vh;
 
 }
 
