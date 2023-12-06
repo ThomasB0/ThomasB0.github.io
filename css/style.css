@@ -65,7 +65,7 @@ body {
     transition: 300ms;
 }
 #reset-button:hover{
-    box-shadow: black 0px 0px 10px;
+    box-shadow: black 0px 0px 9px;
 
 }
 #test{
