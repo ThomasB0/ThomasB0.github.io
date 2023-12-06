@@ -6,13 +6,14 @@ body {
     color: aliceblue;
     text-shadow: rgb(0, 0, 0) 2px 2px 7px ;
     justify-content: center;
+    overflow: hidden;
     }
     
     
 #testt{
     margin: 0 auto;
     font-size: 35px;
-    margin: 10px;
+    margin: 0px;
 }
     
     
@@ -35,15 +36,15 @@ body {
 
 .flex-wrap {
     flex-wrap: wrap;
-    height: 432px;
-    width: 432px;
+    height: 360px;
+    width: 360px;
 }
     
     
 #test{
     border: 2px solid rgba(0, 0, 0, .75);
-    height: 140px;
-    width: 140px;
+    height: 115px;
+    width: 115px;
     font-size: 80px;
     display: flex;
     align-items: center;
@@ -80,8 +81,10 @@ footer{
     background-color: rgba(0, 0, 0, 0.8);
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
     box-shadow: black 0px 0px 20px;
+    transform: translate(0px, 1000px);
+
 }
 
 img{
@@ -99,8 +102,8 @@ a{
     color: white;
 }
 .hidden{
+
     display: none;
-    margin-bottom: -100px;
 }
 #afficher{
     background-color: rgb(16, 104, 181, 0);
@@ -141,3 +144,5 @@ a{
     font-size: xx-large;
     padding: 10px;
 }
+
+

@@ -95,16 +95,19 @@ init();
 
 let footer = document.getElementById("foot");
 let bouton = document.getElementById("afficher2");
-
+bouton.style.transitionDuration = "200ms";
+footer.style.transitionDuration = "200ms";
 //fonction pour afficher le footer ou le faire disparaitre
 function AfficherFooter(){
-    if(footer.className == ""){
-        footer.className = "hidden";
-        bouton.innerHTML = "expand_less";
+    if(bouton.style.rotate == "180deg"){
+        bouton.style.rotate = "0deg"; 
+        footer.style.transitionDuration = "1000ms";
+        footer.style.transform = "translate(0px, 1000px)";
     }
     else{
-        footer.className = "";
-        bouton.innerHTML = "keyboard_arrow_down"
+        footer.style.transitionDuration = "200ms";
+        footer.style.transform = "translate(0px, 0px)";
+        bouton.style.rotate = "180deg";
     }
 }
 
@@ -115,3 +118,4 @@ turn = "directions_boat";
 win = null;
 render();
 }
+
